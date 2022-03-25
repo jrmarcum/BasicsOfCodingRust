@@ -1,1 +1,1 @@
-# RustByExample
+# Basics of Coding Rust
