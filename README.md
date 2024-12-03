@@ -4,7 +4,7 @@ What this text is and what it is not: This text is intended to introduce the rea
 
 The programs are intended to be run in the terminal as that is common to most operating systems. Linux and Mac come preinstalled with a terminal. Windows may or may not have it pre-installed. "Windows Terminal" can be installed from the Microsoft store. Just do a search for it and install it.
 ## Installation and Setup of Rust
-To setup Rust for use, navigate to the Rust programming language website and follow the directions to install for your operating system including the dependencies. If the language has been installed properly you will be able to type the following command in the terminal command line and receive the response shown:
+To setup Rust for use, navigate to the [Rust](https://www.rust-lang.org/learn/get-started) programming language website and follow the directions to install for your operating system including the dependencies. If the language has been installed properly you will be able to type the following command in the terminal command line and receive the response shown:
 ```
 $ rustc --version
 rustc 1.82.0 (f6e511eec 2024-10-15)
