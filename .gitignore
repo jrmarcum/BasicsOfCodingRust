@@ -1,0 +1,8 @@
+# Cargo build output
+target/
+
+# Windows binaries produced by cargo build
+*.exe
+
+# Temporary files created by lesson examples (lessons 58-60)
+tmp/

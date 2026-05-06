@@ -1,0 +1,103 @@
+[workspace]
+members = [
+    "01_hello-world",
+    "02_values",
+    "03_variables",
+    "04_constants",
+    "05_for",
+    "06_if-else",
+    "07_switch",
+    "08_arrays",
+    "09_slices",
+    "10_maps",
+    "11_range",
+    "12_functions",
+    "13_multiple-return-values",
+    "14_variadic-functions",
+    "15_closures",
+    "16_recursion",
+    "17_pointers",
+    "18_structs",
+    "19_methods",
+    "20_interfaces",
+    "21_errors",
+    "22_strings-and-runes",
+    "23_struct-embedding",
+    "24_enums",
+    "25_custom-errors",
+    "26_generics",
+    "27_goroutines",
+    "28_channels",
+    "29_select",
+    "30_timeouts",
+    "31_timers",
+    "32_tickers",
+    "33_mutexes",
+    "34_atomic-counters",
+    "35_waitgroups",
+    "36_worker-pools",
+    "37_rate-limiting",
+    "38_recover",
+    "39_logging",
+    "40_sorting",
+    "41_sorting-by-functions",
+    "42_panic",
+    "43_defer",
+    "44_collection-functions",
+    "45_string-functions",
+    "46_string-formatting",
+    "47_regular-expressions",
+    "48_json",
+    "49_xml",
+    "50_time",
+    "51_epoch",
+    "52_time-formatting-parsing",
+    "53_random-numbers",
+    "54_number-parsing",
+    "55_url-parsing",
+    "56_sha1-hashes",
+    "57_base64-encoding",
+    "58_reading-files",
+    "59_writing-files",
+    "60_line-filters",
+    "61_file-paths",
+    "62_directories",
+    "63_temporary-files-and-directories",
+    "64_command-line-arguments",
+    "65_command-line-flags",
+    "66_command-line-subcommands",
+    "67_environment-variables",
+    "68_testing-and-benchmarking",
+    "69_http-client",
+    "70_http-server",
+    "71_context",
+    "72_tcp-server",
+    "73_text-templates",
+    "74_execing-processes",
+    "75_spawning-processes",
+    "76_signals",
+    "77_exit",
+    "78_sha256-hashes",
+]
+resolver = "2"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+quick-xml = { version = "0.36", features = ["serialize"] }
+regex = "1"
+rand = "0.8"
+chrono = "0.4"
+url = "2"
+sha1 = { version = "0.10", features = ["oid"] }
+sha2 = "0.10"
+hex = "0.4"
+base64 = "0.22"
+reqwest = { version = "0.12", features = ["blocking"] }
+clap = { version = "4", features = ["derive"] }
+ctrlc = "3"
+tempfile = "3"
+tokio = { version = "1", features = ["full"] }
+tera = "1"
+log = "0.4"
+env_logger = "0.11"

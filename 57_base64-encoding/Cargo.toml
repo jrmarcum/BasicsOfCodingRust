@@ -1,0 +1,7 @@
+[package]
+name = "base64-encoding"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = { workspace = true }

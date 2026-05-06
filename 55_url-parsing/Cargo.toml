@@ -1,0 +1,7 @@
+[package]
+name = "url-parsing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+url = { workspace = true }
