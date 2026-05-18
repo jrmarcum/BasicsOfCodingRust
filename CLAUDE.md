@@ -26,6 +26,8 @@ NOTICE — do **not** add a per-file attribution footer to lesson `.md` files.
 ## Upstream Reference
 
 BasicsOfCodingGo is tracked as a git submodule at `upstream/basicsofcodinggo`.
+Submodule URL: <https://github.com/jrmarcum/BasicsOfCodingGo>
+
 Each lesson in this repo mirrors a corresponding lesson in that repo. Read
 the upstream `.go` file and `.md` file for the original logic and expected
 output, then translate to idiomatic Rust.
@@ -127,6 +129,7 @@ The project `.gitignore` covers:
   `##### Results:`, each output line in backticks. No per-file footer.
 - All lessons run with `cargo run` from within the lesson directory. The
   source file is at `src/main.rs` per standard Cargo convention.
+- Lesson 68 (testing) uses `cargo test` instead of `cargo run`.
 - Lessons 58–60 (reading-files, writing-files, line-filters) use `./tmp/` for
   file I/O. The `tmp/` directory is gitignored and must exist at runtime; for
   lesson 58, `tmp/dat.txt` must be pre-populated (content: `hello\nrust\n`).

@@ -25,6 +25,38 @@ This project uses a Cargo workspace. You can also build all lessons at once from
 $ cargo build
 ```
 
+## Project Structure
+
+```
+BasicsOfCodingRust/
+├── Cargo.toml             — workspace manifest listing all lesson crates
+├── LICENSE                — CC0 (Jon Marcum's original contributions)
+├── NOTICE                 — attribution notice for CC BY 3.0 derived content
+├── README.md              — this file
+├── CLAUDE.md              — canonical project context for Claude AI sessions
+├── upstream/
+│   └── basicsofcodinggo/  — git submodule: BasicsOfCodingGo (source of truth)
+└── ##_topic-name/
+    ├── Cargo.toml         — crate manifest
+    ├── src/
+    │   └── main.rs        — runnable Rust source for the lesson
+    └── topic-name.md      — run command and expected output
+```
+
+Lessons are numbered with a two-digit prefix (e.g., `01_hello-world`). Numbers
+match [Basics of Coding Go](https://github.com/jrmarcum/BasicsOfCodingGo) exactly —
+gaps exist where topics were skipped.
+
+## Upstream Reference
+
+This project mirrors lessons from [Basics of Coding Go](https://github.com/jrmarcum/BasicsOfCodingGo),
+which is tracked as a git submodule at `upstream/basicsofcodinggo`. To initialize
+after cloning:
+
+```
+git submodule update --init --recursive
+```
+
 ## Comments
 Comments are used to document what your code does so that others can understand it when reviewing your code. Comments also document items that are non-performant in order to debug the code items at a later date.
 ## Keywords
